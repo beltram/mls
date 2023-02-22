@@ -5,7 +5,7 @@ use openmls::prelude::MlsMessageIn;
 
 pub fn decode_msg(draft: u8) {
     let msg = read_stdin();
-    let msg = base64::prelude::BASE64_STANDARD_NO_PAD
+    let msg = base64::prelude::BASE64_STANDARD
         .decode(msg)
         .expect("Invalid base64 message");
     match draft {
