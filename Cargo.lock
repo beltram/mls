@@ -1263,7 +1263,7 @@ dependencies = [
 [[package]]
 name = "openmls"
 version = "0.4.1"
-source = "git+https://github.com/beltram/openmls?branch=debug#33e1a5dbde1ff2959aee3ece56b7672acfdd364c"
+source = "git+https://github.com/beltram/openmls?branch=debug#5893286b7b02a3c5a3a8851e251a90b5e2940e15"
 dependencies = [
  "backtrace",
  "fluvio-wasm-timer",
@@ -1284,9 +1284,10 @@ dependencies = [
 [[package]]
 name = "openmls_traits"
 version = "0.1.0"
-source = "git+https://github.com/beltram/openmls?branch=debug#33e1a5dbde1ff2959aee3ece56b7672acfdd364c"
+source = "git+https://github.com/beltram/openmls?branch=debug#5893286b7b02a3c5a3a8851e251a90b5e2940e15"
 dependencies = [
  "async-trait",
+ "hex",
  "serde",
  "tls_codec",
 ]
