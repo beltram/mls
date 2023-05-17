@@ -10,6 +10,12 @@ It currently supports MLS draft-12 with Wire's customizations. Draft-16 is not r
 cargo install --git https://github.com/beltram/mls.git
 ```
 
+To reinstall:
+
+```bash
+cargo install --force --git https://github.com/beltram/mls.git
+```
+
 ## usage
 
 For example to decode this [msg.txt](data/msg.txt) file:
