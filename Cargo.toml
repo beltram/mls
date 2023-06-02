@@ -1,6 +1,6 @@
 [package]
 name = "mls"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
@@ -14,3 +14,10 @@ version = "0.4"
 git = "https://github.com/beltram/openmls"
 branch = "debug"
 package = "openmls"
+
+[dependencies.openmls-d20]
+package = "openmls"
+version = "0.20"
+git = "https://github.com/wireapp/openmls"
+branch = "feat/d20"
+

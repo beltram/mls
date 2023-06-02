@@ -12,7 +12,7 @@ mod msg;
     rename_all = "kebab-case"
 )]
 struct Mls {
-    #[arg(default_value_t = 12, short, long)]
+    #[arg(default_value_t = 20, short, long)]
     draft: u8,
     #[clap(subcommand)]
     cmd: Commands,
