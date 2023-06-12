@@ -20,4 +20,3 @@ package = "openmls"
 version = "0.20"
 git = "https://github.com/wireapp/openmls"
 branch = "feat/d20"
-
