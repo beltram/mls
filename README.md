@@ -2,7 +2,7 @@
 
 This cli decodes MLS messages and pretty prints them. It expects a base64 encoded message as input.  
 
-It currently supports MLS draft-12 with Wire's customizations. Draft-16 is not ready yet.
+It currently supports MLS draft-12 with Wire's customizations and RFC 9420
 
 ## installation
 

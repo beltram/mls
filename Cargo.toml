@@ -7,7 +7,7 @@ edition = "2021"
 clap = { version = "4.1", features = ["derive"] }
 hex = "0.4"
 base64 = "0.21"
-bat = "0.22"
+bat = "0.23"
 
 [dependencies.openmls]
 version = "0.4"
@@ -17,6 +17,6 @@ package = "openmls"
 
 [dependencies.openmls-d20]
 package = "openmls"
-version = "0.20"
+version = "1.0.0"
 git = "https://github.com/wireapp/openmls"
-branch = "feat/d20"
+branch = "feat/rfc9420"
