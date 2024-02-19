@@ -1169,7 +1169,7 @@ dependencies = [
 [[package]]
 name = "openmls"
 version = "1.0.0"
-source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#ef8435d03dddba6c00b31f2339d35698a8ed31a1"
+source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#aec55fae88e85b8a1e31b4da1bc1a1c3f6cbe007"
 dependencies = [
  "async-trait",
  "backtrace",
@@ -1191,7 +1191,7 @@ dependencies = [
 [[package]]
 name = "openmls_basic_credential"
 version = "0.2.0"
-source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#ef8435d03dddba6c00b31f2339d35698a8ed31a1"
+source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#aec55fae88e85b8a1e31b4da1bc1a1c3f6cbe007"
 dependencies = [
  "async-trait",
  "ed25519-dalek",
@@ -1208,7 +1208,7 @@ dependencies = [
 [[package]]
 name = "openmls_traits"
 version = "0.2.0"
-source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#ef8435d03dddba6c00b31f2339d35698a8ed31a1"
+source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#aec55fae88e85b8a1e31b4da1bc1a1c3f6cbe007"
 dependencies = [
  "async-trait",
  "ed25519-dalek",
@@ -1224,7 +1224,7 @@ dependencies = [
 [[package]]
 name = "openmls_x509_credential"
 version = "0.2.0"
-source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#ef8435d03dddba6c00b31f2339d35698a8ed31a1"
+source = "git+https://github.com/wireapp/openmls?branch=debug-pretty#aec55fae88e85b8a1e31b4da1bc1a1c3f6cbe007"
 dependencies = [
  "async-trait",
  "base64",
